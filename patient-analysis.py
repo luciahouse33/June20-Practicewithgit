@@ -1,3 +1,5 @@
+""" Patient's inflammation analysis for day 1 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 
