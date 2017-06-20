@@ -8,11 +8,11 @@ data = np.loadtxt(fname='data/inflammation1.csv', delimiter=',')
 #Finding the dimensions of the data
 dimensions=shape(data)
 
-#print just the first row of data
-print(data[0])
+print(data)
+
+# adding some more prints into this file
+print('The plot will now be shown')
 
 image-1=plt.plot(data)
 
 plt.show(image-1)
-
-#added a change to the code
